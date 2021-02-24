@@ -1,0 +1,30 @@
+{
+	"name": "valhalla_window",
+	"description": "A GLFW wrapper for GLFWwindow in D",
+	"importPaths": ["source"],
+	"sourcePaths": ["source"],
+	"targetPath": "bin",
+	"license": "MIT",
+    "copyright": "Copyright (C) 2021 ValhalaLib",
+	"targetType": "library",
+    "dependencies": {
+        "bindbc-glfw": "~>0.10.1"
+    },
+    "subConfigurations": {
+        "bindbc-glfw": "static"
+    },
+    "libs": ["glfw3"],
+    "versions": ["GLFW_33"],
+	"configurations": [
+        {
+            "name": "default"
+        },
+        {
+            "name": "unittest",
+            "targetType": "autodetect",
+            "dependencies": {
+                "aurorafw:unit": "0.0.1-alpha.4"
+			}
+        }
+    ]
+}

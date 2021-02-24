@@ -1,0 +1,8 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"aurorafw": "0.0.1-alpha.4",
+		"bindbc-glfw": "0.10.1",
+		"bindbc-loader": "0.3.2"
+	}
+}
