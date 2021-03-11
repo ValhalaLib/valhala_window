@@ -24,7 +24,8 @@
             "targetType": "autodetect",
             "dependencies": {
                 "aurorafw:unit": "0.0.1-alpha.4"
-			}
+			},
+            "versions": ["vwindow_unittest"]
         }
     ]
 }

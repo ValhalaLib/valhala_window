@@ -11,7 +11,7 @@ import std.traits : isFunctionPointer, isDelegate, ReturnType, Parameters;
 import bindbc.glfw.bindstatic;
 import bindbc.glfw.types;
 
-version(unittest) import aurorafw.unit.assertion;
+version(vwindow_unittest) import aurorafw.unit.assertion;
 
 
 /**
